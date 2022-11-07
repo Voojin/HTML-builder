@@ -55,11 +55,11 @@ fs.rm(path.join(__dirname, 'project-dist'), { recursive: true, force: true})
                       .catch(error => { throw error; });
                   }
                 })
-                .catch(error => { throw error; });
+                .catch(error => { throw error; })
             });
           })
-          .catch(error => { throw error; });
+          .catch(error => { throw error; })
       })
-      .catch(error => { throw error; });
+      .catch(error => { throw error; })
   })
-  .catch(error => { throw error; });
+  .catch(error => { throw error; })

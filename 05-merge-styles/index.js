@@ -1,5 +1,5 @@
-const path = require('path');
-const fs = require('fs');
+const path = require('path')
+const fs = require('fs')
 
 const stylesDir = path.join(__dirname, 'styles');
 const bundle = fs.createWriteStream(path.join(__dirname, 'project-dist', 'bundle.css'), 'utf-8');

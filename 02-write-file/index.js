@@ -8,8 +8,8 @@ const fStream = fs.createWriteStream(fname);
 
 let flag = false;
 
-fStream.write('');  // Создаем пустой файл
-const rl = readline.createInterface({ input: stdin, output: stdout });
+fStream.write('');  
+const rl = readline.createInterface({ input: stdin, output: stdout })
 
 stdout.write('Введите текст\n');
 
